@@ -1,0 +1,13 @@
+//(A !| A) !| (B !| B) = A && B
+
+load a and b in reg 2 and 3
+initialize another variable to 1, wait til it equals 15
+first initialize reg 7 to 1
+for loop
+then "and" with B and store in reg 6
+check if reg 6 equals 0
+if it is skip to next 
+else for loop and add A til variable
+add reg 7 to itself
+loop back
+halted
